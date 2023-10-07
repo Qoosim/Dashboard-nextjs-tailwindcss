@@ -8,7 +8,7 @@ Welcome to the my Dashboard application built with nextjs and tailwindcss!
 ![screenshot](./public/page-1.png)
 
 ## Home Page Screen Demo
-![screenshot](./public/page-2.webm)
+[![Watch the Demo](./public/page-2.webm)]
 
 ## 🛠 Built With <a name="built-with"></a>
 
