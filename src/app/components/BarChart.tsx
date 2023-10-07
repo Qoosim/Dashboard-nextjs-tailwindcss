@@ -37,7 +37,7 @@ const BarChart: React.FC<DataProps> = ({ label, data, borderColor, backgroundCol
 
   useEffect(() => {
     setChartData({
-      labels: ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"],
+      labels: ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"],
       datasets: [
         {
           label: "Sale $",
@@ -55,7 +55,7 @@ const BarChart: React.FC<DataProps> = ({ label, data, borderColor, backgroundCol
         title: {
           display: true,
           text: "Daily Revenue"
-        }
+        },
       },
       maintainAspectRatio: false,
       responsive: true
