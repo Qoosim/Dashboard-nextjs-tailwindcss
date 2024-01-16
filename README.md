@@ -2,7 +2,6 @@
 
 Welcome to the my Dashboard application built with nextjs and tailwindcss!
 
-## [Link to the back-end repository](https://github.com/JUUBIX1/ms-authentication-jbx)
 
 ## Home Page
 ![screenshot](./public/page-1.png)
@@ -52,7 +51,6 @@ npm run dev
 # or
 yarn dev
 # or
-pnpm dev
 ```
 
 ### Folder Structure
