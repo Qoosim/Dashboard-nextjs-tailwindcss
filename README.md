@@ -19,8 +19,6 @@ Welcome to the my Dashboard application built with nextjs and tailwindcss!
   </ul>
 </details>
 
-## 🖥️ Live Demo
-[Link](https://dashboard-nextjs-tailwindcss.netlify.app/) :point_left
 
 <details>
   <summary>Typescript</summary>
@@ -35,6 +33,9 @@ Welcome to the my Dashboard application built with nextjs and tailwindcss!
     <li><a>https://tailwindcss.com/</a></li>
   </ul>
 </details>
+
+## 🖥️ Live Demo
+[Link](https://dashboard-nextjs-tailwindcss.netlify.app/) :point_left:
 
 ## 💻 Getting Started with Create React App
 
