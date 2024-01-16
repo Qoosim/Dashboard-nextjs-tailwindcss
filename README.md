@@ -11,6 +11,8 @@ Welcome to the my Dashboard application built with nextjs and tailwindcss!
 
 ### Tech Stack <a name="tech-stack"></a>
 
+[Live Demo](https://dashboard-nextjs-tailwindcss.netlify.app/) :point-left
+
 <details>
   <summary>Nextjs</summary>
   <ul>
