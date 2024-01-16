@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <TopCard />
       <div className="grid md:grid-cols-3 grid-cols-1 gap-4 p-4">
-        <BarChart />
+        <BarChart label={ '' } data={ [] } borderColor={ '' } backgroundColor={ '' } />
         <RecentOrders />
       </div>
     </main>

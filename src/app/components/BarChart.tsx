@@ -20,16 +20,35 @@ ChartJS.register(
   Tooltip,
   Legend
 )
+interface ChartData {
+  labels: string[];
+  datasets: DataProps[];
+}
+
+interface ChartOptions {
+  plugins: {
+    legend: {
+      position: string;
+    };
+    title: {
+      display: boolean;
+      text: string;
+    };
+  };
+  maintainAspectRatio: boolean;
+  responsive: boolean;
+}
 
 export interface DataProps {
   label: string;
-  data: number[],
+  data: number[];
   borderColor: string;
   backgroundColor: string;
 }
 
 const BarChart: React.FC<DataProps> = ({ label, data, borderColor, backgroundColor }) => {
-  const [chartData, setChartData] = useState({
+  const [chartData, setChartData] = useState<ChartData>({
+    labels: [],
     datasets: []
   })
 
